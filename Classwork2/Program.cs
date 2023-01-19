@@ -25,7 +25,6 @@ namespace Classwork2
         static void Main(string[] args)
         {
             Console.WriteLine("hello world" + 5);
-            Console.ReadKey();
             Console.WriteLine("setting steve to 4");
             Program p = new Program();
             p.setSteve(4);
