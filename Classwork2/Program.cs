@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Classwork2
 {
-    
-    
+    //-----------------------------------------------------------------
+    //   Name:           Zach Coomer
+    //   Date:           01/22/2023
+    //   Class:          352  
+    //   Description:    A number guessing program. 
+    //-----------------------------------------------------------------      
 
 
     class Program
@@ -16,6 +20,8 @@ namespace Classwork2
         static void Main(string[] args)
         {
             Random ranNum = new Random();
+            // random number generator
+            
             int userGuess = -1;
             int guesses = 0;
             int x;
