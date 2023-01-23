@@ -18,10 +18,18 @@ namespace Classwork2
             Random ranNum = new Random();
             int userGuess = -1;
             int guesses = 0;
+            int x;
+            int y;
 
-            Console.WriteLine("I am thinking of a number between 0 and 100.");
+            Console.WriteLine("Select a starting number.");
+            x = Convert.ToInt32(Console.ReadLine());
 
-            int num = ranNum.Next(0, 101);
+            Console.WriteLine("Select a stopping number.");
+            y = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("I am thinking of a number from " + x + " to " + y + ".");
+
+            int num = ranNum.Next(x, y + 1);
 
             while(userGuess != num)
             {
